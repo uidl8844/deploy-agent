@@ -1,0 +1,10 @@
+[project]
+name = "deploy-agent"
+version = "0.1.0"
+description = "Tendor-IT local ops tool"
+requires-python = ">=3.11"
+readme = "README.md"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
